@@ -1,1 +1,172 @@
-/* Your styles here */
+/*INFO GENERALI*/
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    font-family: "Open Sans", system-ui;
+    font-size: 1.2em;
+    line-height: 1.65;
+    font-weight: 500;
+    text-align: center;
+    color: #393d41;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+    font-weight: bold;
+    color: #25a2c3;
+    font-size: 1.4em;
+}
+
+/*forse da togliere dopo aver gestito tutte le img*/
+img {
+    width: 200px;
+}
+
+/*HEADER*/
+
+header {
+    background-color: black;
+    padding: 15px;
+}
+
+
+header img {
+    width: 135px;
+}
+
+/*NAV*/
+
+nav {
+    padding-inline: 50px;
+    min-height: 350px;
+    background-size: cover;
+    background-position: center center;
+    background-image: url('../img/banner.jpg');
+    margin-bottom: 20px;
+}
+
+nav h1 {
+    font-size: 2.8em;
+    line-height: 1.2em;
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+
+nav p,
+article :where(h2, p) {
+    font-size: 1.4em;
+}
+
+button {
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+    font-weight: bold;
+    width: 150px;
+    min-height: 50px;
+    background-color: #f04c2f;
+    margin-top: 15px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+/*MAIN*/
+main {
+    margin-inline: 50px;
+}
+
+/*ARTICLE*/
+article img {
+    width: 300px;
+    border-radius: 100%;
+}
+
+.articleParagraph {
+    margin-block: 40px;
+}
+
+
+/*SECTION*/
+section div h2 {
+    color: white;
+    font-size: 34px;
+    padding-block: 40px;
+}
+
+section div h4 {
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+section div p {
+    font-size: 13px;
+}
+
+.testimonianza {
+    background-color: #e22d0e;
+    color: white;
+    padding-inline: 50px;
+    min-height: 300px;
+}
+
+#italicText {
+    font-size: 17px;
+    font-style: italic;
+}
+
+
+/*ASIDE*/
+aside div {
+    min-height: 370px;
+    border: 1px solid #dee1e3;
+    margin: 50px;
+    border-radius: 5px;
+}
+
+aside div img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+aside div h3 {
+    margin-block: 10px;
+}
+
+aside div p {
+    font-size: 16px;
+}
+
+/*FOOTER*/
+footer {
+    background-color: #3baed4;
+    padding-inline: 80px;
+    padding-block: 50px;
+}
+
+footer h2 {
+    padding-bottom: 20px;
+    color: white;
+    font-size: 3.2em;
+}
+
+footer p {
+    color: white;
+    font-size: 17px;
+}
+
+footer div {
+    border: 1px solid white;
+    margin-inline: 40px;
+    margin-block: 20px;
+}
