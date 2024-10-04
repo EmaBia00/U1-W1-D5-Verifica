@@ -80,6 +80,10 @@ button {
     border: none;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 /*MAIN*/
 main {
     margin-inline: 50px;
@@ -169,4 +173,16 @@ footer div {
     border: 1px solid white;
     margin-inline: 40px;
     margin-block: 20px;
+}
+
+footer a {
+    color: white;
+}
+
+a:hover {
+    color: blue;
+}
+
+#underline {
+    text-decoration: underline;
 }
