@@ -98,7 +98,7 @@ article img {
 /*SECTION*/
 section div h2 {
     color: white;
-    font-size: 34px;
+    font-size: 30px;
     padding-block: 40px;
 }
 
@@ -116,6 +116,7 @@ section div p {
     color: white;
     padding-inline: 50px;
     min-height: 300px;
+    padding-bottom: 25px;
 }
 
 #italicText {
@@ -160,8 +161,12 @@ footer h2 {
 }
 
 footer p {
-    color: white;
+    color: #C8E7F0;
     font-size: 17px;
+}
+
+footer i {
+    color: white;
 }
 
 footer div {
@@ -171,7 +176,7 @@ footer div {
 }
 
 footer a {
-    color: white;
+    color: #C8E7F0;
 }
 
 a:hover {
