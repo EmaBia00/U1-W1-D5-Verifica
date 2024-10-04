@@ -1,6 +1,6 @@
 /*INFO GENERALI*/
 html {
-    font-size: 62.5%;
+    font-size: 70%;
 }
 
 body {
@@ -9,7 +9,6 @@ body {
     font-size: 1.2em;
     line-height: 1.65;
     font-weight: 500;
-    text-align: center;
     color: #393d41;
 }
 
@@ -27,39 +26,44 @@ h3 {
     font-size: 1.4em;
 }
 
-/*forse da togliere dopo aver gestito tutte le img*/
-img {
-    width: 200px;
-}
-
 /*HEADER*/
 
 header {
+    min-height: 130px;
     background-color: black;
     padding: 15px;
 }
 
 
 header img {
-    width: 135px;
+    max-width: 200px;
+    margin-top: 15px;
 }
 
 /*NAV*/
 
 nav {
-    padding-inline: 50px;
-    min-height: 350px;
+    padding-inline: 200px;
+    padding-block: 200px;
+    min-height: 500px;
     background-size: cover;
     background-position: center center;
     background-image: url('../img/banner.jpg');
-    margin-bottom: 20px;
+    text-align: center;
 }
 
 nav h1 {
-    font-size: 2.8em;
+    font-size: 3.2em;
     line-height: 1.2em;
     padding-top: 40px;
     padding-bottom: 15px;
+}
+
+nav p {
+    max-width: 1050px;
+    margin-inline: auto;
+    padding-inline: 150px;
+    padding-block: 20px;
 }
 
 nav p,
@@ -85,26 +89,43 @@ button:hover {
 }
 
 /*MAIN*/
-main {
-    margin-inline: 50px;
-}
 
 /*ARTICLE*/
-article img {
-    width: 300px;
-    border-radius: 100%;
+article {
+    min-height: 400px;
+    text-align: center;
+    padding: 80px;
 }
 
-.articleParagraph {
-    margin-block: 40px;
+article div p {
+    margin-block: 20px;
+}
+
+article img {
+    min-height: 300px;
+    width: 500px;
+    border-radius: 100%;
+    padding: 30px;
+}
+
+#articleInline {
+    min-height: 340px;
+    display: inline-block;
+    max-width: 550px;
+    text-align: left;
 }
 
 
 /*SECTION*/
+section div {
+    text-align: center;
+}
+
 section div h2 {
     color: white;
-    font-size: 34px;
-    padding-block: 40px;
+    font-size: 30px;
+    padding-top: 80px;
+    padding-bottom: 15px;
 }
 
 section div h4 {
@@ -120,20 +141,28 @@ section div p {
     background-color: #e22d0e;
     color: white;
     padding-inline: 50px;
-    min-height: 300px;
+    min-height: 350px;
 }
 
 #italicText {
-    font-size: 17px;
+    font-size: 25px;
     font-style: italic;
 }
 
 
 /*ASIDE*/
+aside {
+    width: 100%;
+    text-align: center;
+}
+
 aside div {
-    min-height: 370px;
+    display: inline-block;
+    text-align: center;
+    max-width: 400px;
+    min-height: 400px;
     border: 1px solid #dee1e3;
-    margin: 50px;
+    margin: 35px;
     border-radius: 5px;
 }
 
@@ -154,7 +183,7 @@ aside div p {
 /*FOOTER*/
 footer {
     background-color: #25a2c3;
-    padding-inline: 80px;
+    padding-inline: 600px;
     padding-block: 50px;
 }
 
@@ -165,18 +194,17 @@ footer h2 {
 }
 
 footer p {
-    color: white;
+    color: #C8E7F0;
     font-size: 17px;
 }
 
-footer div {
-    border: 1px solid white;
-    margin-inline: 40px;
-    margin-block: 20px;
+#container {
+    max-width: 280px;
+    margin-inline: auto;
 }
 
 footer a {
-    color: white;
+    color: #C8E7F0;
 }
 
 a:hover {
@@ -185,4 +213,13 @@ a:hover {
 
 #underline {
     text-decoration: underline;
+}
+
+#alignP {
+    text-align: center;
+}
+
+#lines {
+    border: 1px solid white;
+    margin-block: 35px;
 }
